@@ -1,21 +1,24 @@
 body{
   font-family: 'Open Sans',sans-serif;
-  font-weight: regular;
-}
-h2 {
+  font-size: 1em;
+  }
+h1 {
   font-family: 'Oswald',sans-serif;
-  font-weight: bold;
-}
+  }
 
 .morado {
   background-color: #660066;
 }
 header {
-  background-image: url("/home/francisco/Desktop/Curso/CP6/Mi Portafolio/Assets/img/bg_hero.png");
+  background-image: url("/home/francisco/Desktop/Curso/CP6/Mi_Portafolio/Assets/img/bg_hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 10rem;
+  background-position: center;
 }
 .titulo{
   padding-top: 20rem;
+}
+.about {
+  line-height: 2em;
 }
