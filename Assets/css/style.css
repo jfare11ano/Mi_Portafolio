@@ -7,10 +7,10 @@ h1 {
   }
 
 .morado {
-  background-color: #660066;
+  background-color: #004792;
 }
 header {
-  background-image: url("/home/francisco/Desktop/Curso/CP6/Mi_Portafolio/Assets/img/bg_hero.png");
+  background-image: url("/home/francisco/Desktop/Curso/CP6/Mi_Portafolio/Assets/img/chicago.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 10rem;
@@ -21,4 +21,8 @@ header {
 }
 .about {
   line-height: 2em;
+}
+.foto {
+  width: 150px;
+  height: 150px;
 }
