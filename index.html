@@ -19,9 +19,9 @@
     <body>
 
         <nav class="navbar navbar-expand-lg navbar-dark mr-auto fixed-top azul">
-          <div class="container">
+          <div class="container py-2">
 
-          <h1 class="text-light font-weight-bold">M</h1>
+          <h1 class="text-light font-weight-bold">FRANCISCO</h1>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -57,7 +57,7 @@
           </div>
         </header>
 
-        <section class="m-5 about">
+        <section class="m-5 about d-none d-md-block" id="about">
             <h3 class="display-5 text-center font-weight:400 my-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h3>
             <hr size=5 color="black">  <!---Achicar--->
               <div class="row my-5">
@@ -70,88 +70,250 @@
               </div>
         </section>
 
-        <section class="m-5">
+        <section class="m-5" id="work">
           <h1 class="display-4 font-weight-bold text-center">MI EXPERIENCIA</h1>
           <hr size=10 color="black"> <!---Achicar--->
 
-          <div class="card-deck"> <!---Transformar en Carrusel--->
-              <div class="card text-center">
-                <img class="card-img-top mx-auto foto" src="Assets/img/ccu.jpg" alt="CCU">
-                <div class="card-body">
-                  <h5 class="card-header font-weight-bold">Analista de Proyectos GGCI</h5>
-                  <p class="card-text">2018-2019</p>
-                </div>
-              </div>
-              <div class="card text-center">
-                <img class="card-img-top mx-auto foto" src="Assets/img/catolica.png" alt="Universidad Catolica">
-                <div class="card-body">
-                  <h5 class="card-header font-weight-bold">Ingeniero Civil Industrial</h5>
-                  <p class="card-text">2012-2017</p>
-                </div>
-              </div>
-              <div class="card text-center">
-                <img class="card-img-top mx-auto foto" src="Assets/img/cachamama.png" alt="Cachamama">
-                <div class="card-body">
-                  <h5 class="card-header font-weight-bold">Defensa Central</h5>
-                  <p class="card-text">2013-2019</p>
-                </div>
-              </div>
-              <div class="card text-center">
-                <img class="card-img-top mx-auto foto" src="Assets/img/hku.png" alt="Hong Kong University">
-                <div class="card-body">
-                  <h5 class="card-header font-weight-bold"> Exchange B&A Faculty</h5>
-                  <p class="card-text">2015-2016</p>
-                </div>
-              </div>
-              <div class="card text-center">
-                <img class="card-img-top mx-auto foto" src="Assets/img/molymet.png" alt="Molymet">
-                <div class="card-body">
-                  <h5 class="card-header font-weight-bold">Practicante Finanzas</h5>
-                  <p class="card-text">2017</p>
-                </div>
-              </div>
-              <div class="card text-center">
-                <img class="card-img-top mx-auto foto" src="Assets/img/desafio.jpg" alt="Desafio Latam">
-                <div class="card-body">
-                  <h5 class="card-header font-weight-bold"> Estudiante Desarrollo FullStack</h5>
-                  <p class="card-text">2019</p>
-                </div>
-              </div>
+          <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
-          </div>
+
+        <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#" data-slide-to="0" class="active"></li>
+            <li data-target="#" data-slide-to="1"></li>
+          </ol>
+
+
+          <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+
+              <!--First slide-->
+              <div class="carousel-item active">
+                <div class="card-deck"> <!---Transformar en Carrusel--->
+                    <div class="card text-center">
+                      <img class="card-img-top mx-auto foto" src="Assets/img/ccu.jpg" alt="CCU">
+                      <div class="card-body">
+                        <h5 class="card-header font-weight-bold">Analista de Proyectos GGCI</h5>
+                        <p class="card-text">2018-2019</p>
+                      </div>
+                    </div>
+                    <div class="card text-center">
+                      <img class="card-img-top mx-auto foto" src="Assets/img/catolica.png" alt="Universidad Catolica">
+                      <div class="card-body">
+                        <h5 class="card-header font-weight-bold">Ingeniero Civil Industrial</h5>
+                        <p class="card-text">2012-2017</p>
+                      </div>
+                    </div>
+                    <div class="card text-center">
+                      <img class="card-img-top mx-auto foto" src="Assets/img/cachamama.png" alt="Cachamama">
+                      <div class="card-body">
+                        <h5 class="card-header font-weight-bold">Defensa Central</h5>
+                        <p class="card-text">2013-2019</p>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+              <!--Second slide-->
+
+              <div class="carousel-item">
+
+                <div class="card-deck">
+                    <div class="card text-center">
+                      <img class="card-img-top mx-auto foto" src="Assets/img/hku.png" alt="Hong Kong University">
+                      <div class="card-body">
+                        <h5 class="card-header font-weight-bold"> Exchange B&A Faculty</h5>
+                        <p class="card-text">2015-2016</p>
+                      </div>
+                    </div>
+                    <div class="card text-center">
+                      <img class="card-img-top mx-auto foto" src="Assets/img/molymet.png" alt="Molymet">
+                      <div class="card-body">
+                        <h5 class="card-header font-weight-bold">Practicante Finanzas</h5>
+                        <p class="card-text">2017</p>
+                      </div>
+                    </div>
+                    <div class="card text-center">
+                      <img class="card-img-top mx-auto foto" src="Assets/img/desafio.jpg" alt="Desafio Latam">
+                      <div class="card-body">
+                        <h5 class="card-header font-weight-bold"> Estudiante Desarrollo FullStack</h5>
+                        <p class="card-text">2019</p>
+                      </div>
+                    </div>
+
+                </div>
+
+              </div>
+            </div>
+            </div>
 
         </section>
 
-        <section class="my-5 p-5 azul text-light">
+        <section class="my-5 p-5 azul text-light" id="expe">
           <h1 class="display-4 font-weight-bold text-center">MI ULTIMOS TRABAJOS</h1>
           <hr size=10 color="white"> <!---Achicar--->
 
           <div class="row pt-5">
             <div class="col-md-4 p-4">
-              <img src="Assets/img/meet_coffee.png" class="img-fluid" alt="">
+              <img src="Assets/img/meet_coffee.png" class="img-fluid" alt="" id="meetc">
             </div>
             <div class="col-md-4 p-4">
-              <img src="Assets/img/iguana_page.png" class="img-fluid" alt="">
+              <img src="Assets/img/iguana_page.png" class="img-fluid" alt="" id="iguanac">
             </div>
             <div class="col-md-4 p-4">
-              <img src="Assets/img/suricata.png" class="img-fluid" alt="">
+              <img src="Assets/img/suricata.png" class="img-fluid" alt="" id="suricatac">
             </div>
           </div>
           <div class="row">
             <div class="col-md-4 p-4">
-              <img src="Assets/img/cuppon.png" class="img-fluid" alt="">
+              <img src="Assets/img/cuppon.png" class="img-fluid" alt="" id="cupponc">
             </div>
             <div class="col-md-4 p-4">
-              <img src="Assets/img/ricomida.png" class="img-fluid" alt="">
+              <img src="Assets/img/ricomida.png" class="img-fluid" alt="" id="ricomidac">
             </div>
             <div class="col-md-4 p-4">
-              <img src="Assets/img/dmark.png" class="img-fluid" alt="">
+              <img src="Assets/img/dmark.png" class="img-fluid" alt="" id="dmarkc">
             </div>
           </div>
 
         </section>
 
-        <section class="my-5 p-5">
+        <!-- Modal Meet-->
+              <div class="modal fade" id="meet" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Meet and Coffee</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="Assets/img/meet_coffee.png" class="img-fluid my-3" alt="MeetCoffe">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal Iguana-->
+                    <div class="modal fade" id="iguana" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Iguana Page</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="Assets/img/iguana_page.png" class="img-fluid my-3" alt="Iguana">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Modal Ricomida-->
+                          <div class="modal fade" id="ricomida" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Ricomida</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  <img src="Assets/img/ricomida.png" class="img-fluid my-3" alt="Iguana">
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Modal CUppon-->
+                                <div class="modal fade" id="cuppon" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Ricomida</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        <img src="Assets/img/cuppon.png" class="img-fluid my-3" alt="Iguana">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <!-- Modal Suricata-->
+                                      <div class="modal fade" id="suricata" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLabel">Suricata</h5>
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                              </button>
+                                            </div>
+                                            <div class="modal-body">
+                                              <img src="Assets/img/suricata.png" class="img-fluid my-3" alt="Iguana">
+                                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <!-- Modal DMArk-->
+                                            <div class="modal fade" id="dmark" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                              <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                  <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">D Mark</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                      <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                  </div>
+                                                  <div class="modal-body">
+                                                    <img src="Assets/img/dmark.png" class="img-fluid my-3" alt="Iguana">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                  </div>
+                                                  <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+
+
+        <section class="my-5 p-5" id="contact">
           <h1 class="display-4 font-weight-bold text-center">CONTACTO</h1>
           <hr size=10 color="black"> <!---Achicar--->
 

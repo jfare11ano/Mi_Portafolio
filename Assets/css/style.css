@@ -26,3 +26,12 @@ header {
   width: 150px;
   height: 150px;
 }
+.carousel-indicators li{
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    background-color: black;
+  }
+  .carousel-indicators {
+    bottom: -3.5rem;
+  }
